@@ -1,3 +1,25 @@
+# Visual Studio files
 .vs/
 bin/
 obj/
+
+# Compiled code
+*.dll
+*.exe
+*.pdb
+
+# OS-specific files
+Thumbs.db
+.DS_Store
+
+# Dependency directories
+node_modules/
+package-lock.json
+
+# Log files
+*.log
+
+# Other temporary or personal files
+*.tmp
+*.bak
+*.swp

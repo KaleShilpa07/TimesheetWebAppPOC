@@ -1,0 +1,14 @@
+@TimesheetPOC_HostAddress = https://localhost:7199
+POST {{TimesheetPOC_HostAddress}}/api/ExcelImport/upload
+Content-Type: multipart/form-data; boundary=----WebKitFormBoundary
+Accept: application/json
+
+------WebKitFormBoundary
+Content-Disposition: form-data; name="file"; filename="timesheet.xlsx"
+Content-Type: application/vnd.openxmlformats-officedocument.spreadsheetml.sheet
+
+< ./timesheet.xlsx
+------WebKitFormBoundary--
+
+
+
